@@ -7,9 +7,8 @@ This project features a clean glassmorphism-inspired design and supports basic a
 
 ## 🌐 Live Demo
 
-🔗 https://negarlmd.github.io/Calculator/
+https://negarlmd.github.io/Calculator/
 
----
 
 ## 📸 Screenshot
 
