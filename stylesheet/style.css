@@ -1,0 +1,99 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        font-family: Arial, sans-serif;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg, #ffd6e8, #f8c8ff, #d6e4ff);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      h2 {
+        text-align: center;
+        padding: 13px;
+      }
+      .calculator {
+        width: 360px;
+        padding: 25px;
+        border-radius: 30px;
+        background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(20px);
+        box-shadow:
+          0 10px 30px rgba(255, 105, 180, 0.25),
+          0 0 30px rgba(255, 255, 255, 0.4);
+      }
+
+      .display {
+        width: 100%;
+        height: 80px;
+        border: none;
+        border-radius: 20px;
+        padding: 15px;
+        text-align: right;
+        font-size: 2rem;
+        background: white;
+        color: #c2185b;
+        margin-bottom: 20px;
+        outline: none;
+      }
+
+      .buttons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px;
+      }
+
+      button {
+        height: 65px;
+        border: none;
+        border-radius: 18px;
+        cursor: pointer;
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: #7b1fa2;
+        background: #fff;
+        transition: 0.3s;
+      }
+
+      button:hover {
+        transform: translateY(-4px);
+      }
+
+      .number {
+        background: #fff0f7;
+      }
+
+      .operator {
+        background: #ffc1e3;
+        color: white;
+      }
+
+      .equal {
+        background: #ff69b4;
+        color: white;
+        grid-column: span 2;
+      }
+
+      .clear {
+        background: #ba68c8;
+        color: white;
+      }
